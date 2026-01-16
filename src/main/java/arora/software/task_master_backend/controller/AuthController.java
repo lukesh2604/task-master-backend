@@ -20,7 +20,6 @@ import java.util.Map;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
 public class AuthController {
     @Autowired
     private UserService userService;
